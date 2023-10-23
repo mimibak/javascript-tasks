@@ -15,14 +15,14 @@ console.log(getUserNameLength("Jenna") > 4);
 
 // ^______________ Should log true*/
 
-/*let userName = "Brad";
+let userName = "Brad";
 userName = "Jenna";
 
 function getUserNameLength() {
   return (userName = userName.length);
 }
 
-console.log(getUserNameLength(userName) > 4);*/
+console.log(getUserNameLength(userName) > 4);
 
 /*let userName = "Jenna";
 
@@ -42,13 +42,13 @@ console.log(getUserNameLength(userName));*/
 
 // TODO: Implement the isString function
 
-/*const isString = function (Hello) {
-  return "Hello";
-};*/
-
-let isString = function (datatype) {
+const isString = function (datatype) {
   return typeof datatype == "string";
 };
+
+/*let isString = function (datatype) {
+  return typeof datatype == "string";
+};*/
 
 console.log(isString("Hello"));
 // result should be true
