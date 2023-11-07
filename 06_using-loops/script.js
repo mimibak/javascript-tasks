@@ -75,5 +75,3 @@ console.log(charCount("mama", "m"));
 
 console.log(charCount("Resümee", "e"));
 // result should be: 3
-
-//Fragen: Zweite Rechnung lösen im Unterricht (damit wir herausfinden, wie wir auf die eckigen Klammern kommen)
